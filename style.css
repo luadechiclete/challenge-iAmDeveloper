@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sancreek&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ }
+
+ body {
+    background-image: url(/bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -4em;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .container {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+ }
+
+h1 {
+    position: absolute;
+    right: 20em;
+    font-family: 'Sancreek', cursiva;
+}
+
+h4 {
+    margin: 15px 6em -18px 0em;
+    
+}
+
+ .texto {
+    max-width: 400px;
+ }
+
+
+ .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    background-color: #BDBFC4;
+    border: none;
+    color: white;
+ }
+
+ .uil-angle-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    background-color: #0151A1;
+    border: none;
+    color: white;
+ }
+
+ .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+ }
+
+ .line {
+    display: flex;
+    width: 10em;
+    height: 3px;
+    background-color: #F2F2F2;
+    margin-right: 1%;
+    margin-left: 1%;
+ }
+
+ .ret {
+    color: #0151A1;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 70px;
+    font-family: 'Space Grotesk', sans-serif;
+    transform: rotate(180deg);
+ }
